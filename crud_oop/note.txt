@@ -1,0 +1,138 @@
+-- documentation of php oop :
+
+
+
+  - what is oop ?
+  - concept of oop ?
+  - class and object ?
+  - property and method ?
+  - constructor and destructor ?
+  - access modifiers ?
+     - public
+     - private
+     - protected
+  - getters and setters ?
+  - static vs non static ?
+  -  inheritance ?
+  -  polymorphism ?  
+  -  abstraction ?
+  -  encapsulation ?
+  -  abstract class ?
+  -  interface ?
+  -  abstract vs interface ?
+  -  final keyword ?
+  -  magic methods ?
+  -  traits ?
+  -  namespaces ?
+  -  spl autoload ?
+
+  -  design patterns ?
+            exm -  singleton pattern ?
+                -  factory pattern ?
+                -  adapter pattern ?
+                -  dependancy injection ?
+  - architectures ?
+            exmp -  mvc ?
+                 -  mvp ?
+                 -  mvvm ?
+                 -  clean ?
+            
+
+
+
+
+  _____ starting :
+   
+
+    what is oop?
+    oop is a programming paradigm that uses objects and classes in programming.
+    it aims to implement real world entities like inheritance, hiding, polymorphism etc in programming.
+---------------------------------------------------------------------------------------------------------------------------------
+    What are the advantages of OOPs?
+    Code maintenance,
+    Data Reusability(inheritance),
+    Security,
+    Easy troubleshooting (structured code),
+    reduce complexity(polymorthisme),
+    Flexibility(overiding methods) and Design Benefits.
+    Java OOPs Concepts are one of the core development approaches that is widely accepted.
+---------------------------------------------------------------------------------------------------------------------------------
+
+    what is the best functionality in a programme : performance , security , maintainability , scalability , Reusability.
+
+---------------------------------------------------------------------------------------------------------------------------------
+ 
+ 4 pillars of oop :
+    1. encapsulation
+    2. abstraction
+    3. inheritance
+    4. polymorphism
+
+---------------------------------------------------------------------------------------------------------------------------------
+  1-  inheritance : 
+        inheritance is a mechanism in which one object acquires all the properties and behaviors of its parent object
+            a child class inherits all the members (fields, methods, and nested classes) from its parent class.
+            it is of three types:
+                _ single inheritance (AB)
+                _ multilevel inheritance (ABC)
+                _ hybrid inheritance  (multiple inheritance)
+        
+---------------------------------------------------------------------------------------------------------------------------------
+
+  2 - polymorphism :
+        many forms of one thing.
+        one functionality can be done in many ways.
+        it is used to perform a single action in different ways.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+  3 - encapsulation :
+     encapsulation is a mechanism in which data and methods that operate on that data are wrapped together into a single unit.
+              it is used to hide data and methods from outside the class.
+              it is used to achieve data hiding.
+    
+---------------------------------------------------------------------------------------------------------------------------------
+
+  4 - abstraction :
+     what is abstraction?
+          Abstraction is one of the OOP Concepts in Java which is an act of representing essential features without including background details.
+           It is a technique of creating a new data type that is suited for a specific application.
+           Lets understand this one of the OOPs Concepts with example, while driving a car,
+           you do not have to be concerned with its internal working. Here you just need to concern about parts like steering wheel, Gears, accelerator, etc.
+                 
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+magic methods :
+    __construct()
+    __destruct()
+    __call() ex : 
+    __callStatic()
+    __get()
+    __set()
+    __toString()
+
+
+
+MVC (Model-View-Controller):
+
+MVC is an architectural pattern that separates an application into three interconnected components: Model, View, and Controller.
+Model: Represents the application's data and business logic. It is responsible for managing and processing data, as well as notifying the View of any changes.
+View: Represents the user interface (UI) and is responsible for displaying data to the user. It observes the Model and updates the UI accordingly.
+Controller: Acts as an intermediary between the Model and View. It receives user input, processes it (possibly updating the Model), and updates the View accordingly.
+MVC promotes the separation of concerns, making it easier to manage and maintain different aspects of the application.
+
+
+
+
+resources :
+
+.htaccess :     https://httpd.apache.org/docs/current/howto/htaccess.html
+
+ spl autoload library :   https://www.php.net/manual/en/book.spl.php
+    
+to learn design patterns : https://refactoring.guru/design-patterns/catalog
+
+to learn mvc : https://www.geeksforgeeks.org/mvc-design-pattern/
