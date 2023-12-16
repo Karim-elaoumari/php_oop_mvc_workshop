@@ -68,20 +68,9 @@ Object-Oriented Programming (OOP) is a programming paradigm that utilizes object
 Design patterns are reusable solutions to common problems in software design. They represent best practices for solving specific issues in a way that is efficient and effective.
 
 ### Singleton Pattern
-
-...
-
 ### Factory Pattern
-
-...
-
 ### Adapter Pattern
-
-...
-
 ### Dependency Injection
-
-...
 
 ## Architecture
 
@@ -98,17 +87,8 @@ MVC is an architectural pattern that separates an application into three interco
 MVC promotes the separation of concerns, making it easier to manage and maintain different aspects of the application.
 
 ### MVP
-
-...
-
 ### MVVM
-
-...
-
 ### Clean Architecture
-
-...
-
 ## Resources
 
 - [.htaccess Documentation](https://httpd.apache.org/docs/current/howto/htaccess.html)
